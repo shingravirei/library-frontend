@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    color: #333;
+    line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+th {
+    text-transform: capitalize;
+    margin: 1rem 0;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    border-radius: 5%;
+}
+
+.btn-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-bottom: 1rem;
+}
